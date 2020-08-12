@@ -1,0 +1,98 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: normal;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color:white;
+    margin: 50px 500px 70px 30px;/*El Margen inicia como un reloj*/
+    /*text-transform: uppercase;
+    text-decoration: underline;*/
+    
+   
+}
+h2{
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 strong{
+    color:#0062FC;
+}
+.portfolio{
+background:#FAFAFA ;
+}
+
+.project{
+    /*border-color: red;
+    border-width: 15px;
+    border-style: solid;
+    border-top: 10px solid  red;
+    border-right: 10px solid green;
+    border-left:10px solid pink;
+    border-bottom: 10px solid yellow;*/
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    box-sizing: border-box;
+   
+}
+
+.project-details{
+    width: 500px;
+    /*height: 200px;
+    margin: 10px 20px;*/
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+
+.hero{
+    height: 300px;
+    background-image: url('../imagenes/hero.jpg') ;
+   background-color:#1b2127 ;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+}
+
+.header{
+    background-color: #1b2127;
+    color:white;
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.flexbox{
+    
+display: flex;
+flex-wrap: wrap;
+/*flex-direction: column;*/
+}
+.box{
+    margin: 20px 20px 20px 20px;
+    width: 50px ;
+    height: 50px;
+    border: 1px solid red;
+}
